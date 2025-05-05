@@ -2,11 +2,14 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  let [counter,setCounter]=useState(0)
   const addValue=()=>{
-
-    console.log("value added",counter=counter+1)
+    setCounter(counter=counter+1)
+    console.log("value added",counter)
+    // counter=counter+1
+    // setCounter(counter)
   }
-  let counter =5;
+  
   return (
     <>
      <h1>hello this snadhya</h1>
