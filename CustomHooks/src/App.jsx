@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ToggleComponent from './Components/UseToggle/UseToggleComponenet'
+import CounterComponent from './Components/Counter/CounterComponent'
 
 function App() {
   /**
@@ -29,6 +30,7 @@ function App() {
   return (
     <>
       <ToggleComponent/>
+      <CounterComponent/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
