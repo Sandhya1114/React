@@ -1,7 +1,4 @@
 
-// NotificationsList.js
-import React from 'react';
-
 const NotificationsList = ({ notifications }) => {
   console.log('NotificationsList rendered');
   return (

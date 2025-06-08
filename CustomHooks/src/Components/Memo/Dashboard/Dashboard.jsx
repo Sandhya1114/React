@@ -2,9 +2,12 @@
 // Dashboard.js
 import React, { useCallback, useState } from 'react';
 import UserProfile from './UserProfile';
-import NotificationsList from '../NotificationsList';
-import FilterBar from '../FilterBar';
-import UsersList from '../UserList';
+
+import FilterBar from './FilterBar';
+
+import NotificationsList from './NotificationsList';
+import UsersList from './UsersList5';
+
 
 const Dashboard = () => {
     const [user] = useState({
