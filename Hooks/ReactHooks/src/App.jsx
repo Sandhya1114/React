@@ -6,6 +6,9 @@ import UseState from './UseState/UseState'
 import UseEffect from './UseEffect/UseEffect'
 import UseRef from './UseRef/UseRef'
 import Form from './UseActionState/UseActionState'
+import { UseId } from './UseId/UseId'
+import UseDefferedValue from './useDeferredValue/useDeferredValue'
+import UseDebugValue from './useDebugValue/useDebugValue'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +19,9 @@ function App() {
       <UseEffect/>
       <UseRef/>
       <Form/>
+      <UseId/>
+      <UseDefferedValue/>
+      <UseDebugValue/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
