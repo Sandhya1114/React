@@ -5,6 +5,7 @@ import './App.css'
 import UseState from './UseState/UseState'
 import UseEffect from './UseEffect/UseEffect'
 import UseRef from './UseRef/UseRef'
+import Form from './UseActionState/UseActionState'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <UseState/>
       <UseEffect/>
       <UseRef/>
+      <Form/>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
